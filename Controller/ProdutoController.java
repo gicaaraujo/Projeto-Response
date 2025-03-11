@@ -18,7 +18,7 @@ import com.Implementacao.Entity.Produto;
 import com.Implementacao.Service.ProdutoService;
 
 @RestController
-@RequestMapping("/produto")
+@RequestMapping("/produtos")
 public class ProdutoController {
 	
 	private final ProdutoService produtoService;
